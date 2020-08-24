@@ -1,4 +1,4 @@
-# Lab 02
+# Lab 02 - NOT FINALIZED
 
 The name of this project / folder should be Lab01-LastName (where LastName is your last name)
 
