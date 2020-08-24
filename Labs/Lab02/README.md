@@ -1,25 +1,33 @@
 # Lab 02
 
-The name of this project / folder should be Lab01-LastName (where LastName is your last name)
+The name of this project / folder should be Lab02-LastName (where LastName is your last name)
 
 This link to [If-Else Statements in C](https://www.programiz.com/c-programming/c-if-else-statement) is a good resource for this lab.
 
-## Earthquake Charactarization - If-Else Statements
+## If-Else Statements
 
-Write a program that determines the amount of damage projected based on an earthquake's Richter scale value.  Use a ladder style if-else statement to complete this lab.
+Write a program that requests 4 grades from the user, computes the average grade, then tells the user their average and corresponding letter grade.
 
-| Richter Scale Number (n)        | Characterization                                 |
-| --------------------------------|--------------------------------------------------|
-| n < 5.0                         | little or no damage                              |
-| 5.0 <= n > 5.5                  | some damage                                      |
-| 5.5 <= n > 6.5                  | serious damage: walls may crack or fall          |
-| 6.5 <= n > 7.0                  | disaster: houses and buildings may collapse      |
-| higher                          | catastophe: most building will be destroyed      |
+For capturing input, you may either have the user enter all grades at once OR ask for grades one at a time.
+
+| Numeric Grade Scale        | Corresponding Letter Grade                       |
+| ---------------------------|--------------------------------------------------|
+| average >= 90              | A                                                |
+| 80 >= average < 90         | B                                                |
+| 70 >= average < 80         | C                                                |
+| 60 >= average < 70         | D                                                |
+| average < 60               | F                                                |
 
 Sample Run:  
-`Welcome to the earthquake damage estimator.`  
-`Please enter a Richter scale value: 6.3`  
-`This earthquake will cause serious damage: walls may crack or fall`
+`Welcome to the grade estimator.`  
+`Please enter four grade values: 94 64 75 82`  
+`Your average grade is 78.75 - a letter grade of C is expected`
+
+Rubric:
+* Capturing user input: 2 pts
+* Calculating the average: 2 pts
+* Creating if-else statements per problem description: 6 pts
+* Good comments, logical variable naming, and code structure: 2 pts
 
 ## What to Submit
 Download your repl project or navigate to the folder in your file explorer.  

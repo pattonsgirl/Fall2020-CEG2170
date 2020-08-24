@@ -1,4 +1,4 @@
-# Lab 10 - EXTRA CREDIT ONLY
+# Lab 10 - NOT FINALIZED
 
 ## Getting Started
 
