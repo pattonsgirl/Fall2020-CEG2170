@@ -1,33 +1,42 @@
-#include <stdio.h>
-#define MAX_NAME 15
-#define MAX_VEHICLES 5
+    
+#include <stdio.h>  //standard input and ouput
+#include <stdlib.h>  //needed to flush buffer
+#define MAX 89
 
-typedef struct {
-    char make[MAX_NAME];
-    char model[MAX_NAME];
-    int year;
-    double mileage;
-} vehicle_t;
+/*
+*
+* To run:
+* Use shortcut Ctrl + Shift + C to bring up a cmd terminal
+* If you are using mingw 32 bit, use command: mingw32-make run
+* If you are using mingw 64 bit (or have changed mingw32-make to make) 
+*    use command: make run
+* See Makefile for what is happening in background
+*/
 
-typedef struct {
-    vehicle_t motors [MAX_VEHICLES];
-} garage_t;
-
-//void read_info (garage_t *);
-void print_all (garage_t *);
-
-int main (void){ 
-    garage_t my_garage; 
-    //read_info (&my_garage);
-    print_all (&my_garage);    
-    return 0;
-}
-
-void print_all (garage_t *g){
-    for (int i = 0; i < MAX_VEHICLES; i++){
-        printf("%s: %s %d %lf\n", g->motors[i].make, g->motors[i].model, 
-            g->motors[i].year, g->motors[i].mileage);
+int main (void) {
+    int time = 0;
+    scanf("%d", &time);
+    //if time is between 0 /exclusively/ and 12 /exclusively/, print something
+    if(0 < time && time <= 12){
+        printf("Good morning");
     }
+    //otherwise if time is between 12 /inclusively/ and 18 /inclusively/, print something
+    else if (12 <= time && time <= 18){
+        printf("Good afternoon");
+    }
+    //otherwise if time is between 18 /inclusively/ and 24 /inclusively/, print something
+    else if(18 <= time && time <= 24){
+        printf("Good night!");
+    }
+    else {
+        printf("Time entered was not valid.");
+    }
+
+    //Questions to ask:
+    //  If time was 0, what would happen?
+    //  If time was 16, what would happen?
+    //  If time was 18, what would happen?
+
+    return 0;
+
 }
-
-
