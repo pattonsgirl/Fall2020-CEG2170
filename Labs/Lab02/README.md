@@ -2,7 +2,7 @@
 
 The name of this project / folder should be Lab02-LastName (where LastName is your last name)
 
-This link to [If-Else Statements in C](https://www.programiz.com/c-programming/c-if-else-statement) is a good resource for this lab.
+This link to [If-Else Statements in C](https://www.programiz.com/c-programming/c-if-else-statement) and [C Input Output](https://www.programiz.com/c-programming/c-input-output) are good resources for this lab.
 
 ## If-Else Statements
 
