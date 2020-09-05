@@ -1,7 +1,7 @@
 # Lab 01
 The name of this project / folder should be Lab01-LastName (where LastName is your last name)
 
-This link to [Introduction to C](https://www.cprogramming.com/tutorial/c/lesson1.html) is a good resource for the remainder of this lab.
+This link to [Introduction to C](https://www.programiz.com/c-programming/c-input-output) is a good resource for the remainder of this lab.
 
 ## Part 1 - Output only (5pts)
 Print a statement that says your name.  You can make it silly, but it needs to include your name.
