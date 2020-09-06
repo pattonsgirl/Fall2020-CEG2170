@@ -6,6 +6,7 @@ This lab will require you to create two projects, one for each Part.  You will u
 Resources:
 * [While Loop](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
 * [For Loop](https://www.tutorialspoint.com/cprogramming/c_for_loop.htm)
+* [C For Loop](https://www.programiz.com/c-programming/c-for-loop)
 * [Formatting Output](https://www.codingunit.com/printf-format-specifiers-format-conversions-and-formatted-output)
 
 ## Part 1 - While Loops:
