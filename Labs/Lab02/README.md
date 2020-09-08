@@ -12,10 +12,10 @@ For capturing input, you may either have the user enter all grades at once OR as
 
 | Numeric Grade Scale        | Corresponding Letter Grade                       |
 | ---------------------------|--------------------------------------------------|
-| average >= 90              | A                                                |
-| 80 >= average < 90         | B                                                |
-| 70 >= average < 80         | C                                                |
-| 60 >= average < 70         | D                                                |
+| average <= 90              | A                                                |
+| 80 <= average < 90         | B                                                |
+| 70 <= average < 80         | C                                                |
+| 60 <= average < 70         | D                                                |
 | average < 60               | F                                                |
 
 Sample Run:  
