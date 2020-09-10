@@ -28,7 +28,7 @@ Your average grade is 78.75 - a letter grade of C is expected
 Rubric:
 * Capturing user input: 2 pts
 * Calculating the average: 2 pts
-* Creating if-else statements per problem description: 6 pts
+* Creating if-else statements per problem description: 4 pts
 * Good comments, logical variable naming, and code structure: 2 pts
 
 ## What to Submit
