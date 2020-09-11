@@ -16,14 +16,18 @@ int main(void) {
   scanf("%d", &guess);
   //check guess between 1 and 100
   if(guess >= 1 && guess <= 100){
-    int close_high = guess + 5;
-    int close_low = guess - 5;
+    //want to base +/- 5 of ANSWER, not GUESS
+    int answer_high = answer + 5;
+    int answer_low = answer - 5;
+    //int close_high = guess + 5;
+    //int close_low = guess - 5;
     //Check if the guess is equal to the answer
     if (guess == answer){
       printf("You got it!");
     }
     //Check if the guess is within 5 of the correct answer
-    else if(close_high <= answer) {
+    else if(answer_low <= guess && guess <= answer_high) {
+    //else if(close_high <= answer) {
       //Print getting hot!
       printf("Getting hot!\n");
     }
