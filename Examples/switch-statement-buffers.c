@@ -12,8 +12,8 @@ int main(void) {
   printf("Enter a for add or s for subtract:");
   //fflush(stdin);
   while(getchar() != '\n');
-  //scanf("%c", &selection);
-  selection = getchar();
+  scanf("%c", &selection);
+  //selection = getchar();
   switch (selection){
     case 'a':
       //stuff to do
