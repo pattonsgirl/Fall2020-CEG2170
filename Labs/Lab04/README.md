@@ -1,4 +1,4 @@
-# Lab 04 - NOT FINALIZED
+# Lab 04
 
 ## Getting Started
 This lab will require you to create two projects, one for each Part.  You will upload both to Pilot.
@@ -31,7 +31,7 @@ The name of this project / folder should be Lab04-Part2-LastName (where LastName
 
 Make a basic calculator.  
 Your `main` function will ask the user to pick a mathematical operation to perform, and then prompt the user for two numbers.  Use a loop to check that the user has entered a valid input.  Use a switch statment in your `main` to call the function for the corresponding character input.  
-Your program will have 4 functions, `add_nums`, `subtract_nums`, `mult_nums`, `div_nums`.  These functions should expect doubles and print the result of the corresponding operation inside the function (your functions should not return a value).  
+Your program will have 4 functions, `add_nums`, `subtract_nums`, `mult_nums`, `div_nums`, `mod_nums`.  These functions should expect doubles and print the result of the corresponding operation inside the function (your functions should not return a value).  
 
 ### Sample execution:
 ```
@@ -40,6 +40,7 @@ a - addition
 s - subraction
 m - multiplication
 d - division
+o - modulo
 Enter the mathemical operation [a, s, m, d, o]: k
 Invalid input!
 Enter the mathemical operation [a, s, m, d, o]: a
@@ -48,7 +49,7 @@ Enter two numbers (put a space between the numbers) and hit Enter: 4.5 9
 ```
 ### Part 2 Rubric:
 * Prompts user for inputs as specified: 1 pts
-* Loop to validate user selected `a, s, m, d` - continues to prompt until correct input: 1 pts
+* Loop to validate user selected `a, s, m, d, o` - continues to prompt until correct input: 1 pts
 * Functions that two numbers as parameters, and print output corresponding to the operation selected: 2 pts
 * Good comments, logical variable naming, and code structure: 1 pts
 
