@@ -2,27 +2,7 @@
 
 ## Getting Started
 
-Download the Windows-Template or MacLinux-Template file from Pilot.  This contains settings  
-for programming in VS Code.  Extract the file to a directory of your choice (such as CEG2170).  
-You will now have a folder named Template that contains:
-* .vscode
-* code.c
-* Makefile
 
-Folder structure:
-* Create a folder named Lab07-Lastname.
-
-In Visual Studio Code, go to File, Open Folder, and open the folder corresponding to which part of  
-this lab your are working on.
-
-Rename code.c if desired.  If you rename it, be sure to update the Makefile variable PROGNAME  
-with the new name of your file.
-
-To run from VS Code, use the shortcut `Ctrl + Shift + C` to open the Windows Command Terminal.  
-The file path should be your project folder by default.
-
-Type `make run` - this will compile and run your code file.  
-If it fails, see the Troubleshooting Guide in [Setting Up Your Environment](https://github.com/pattonsgirl/Spring2020-CEG2170)
 
 This link to [Arrays in C](https://www.tutorialspoint.com/cprogramming/c_arrays.htm) is a good resource for this lab.
 
@@ -73,7 +53,7 @@ correctly.  This condition should be based on `guessed` having no more `*` chara
 as before, if this condition is met, the game should terminate and print the array `word`.
 
 ## Extra Credit (10%):
-Add to your program the ability for a game master to enter a word for a user to guess.  You program  
+Add to your program the ability for a game master to enter a word for a user to guess.  Your program  
 should now be able to use a default (hard coded) word or a word entered by a game master.  You can  
 use a switch case or if statement to let the user select which mode to play the game in.
 
