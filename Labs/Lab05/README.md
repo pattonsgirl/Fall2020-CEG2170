@@ -19,7 +19,9 @@ Your `main` needs to open a file called `input.txt` (contents for `input.txt` ar
 * For grading, we can test your code on a different input file, so it is important to not limit your loop to only the version of `input.txt` provided in this lab .
     * Your loop should look for EOF, not terminate after so many lines are read.
 
-Your `main` can still use a switch statement to determine which function to call based on the value of the first character of the line.  You can assume only valid input will exist in `input.txt`, so you do not need to check for improper input.  Using the output parameter passed to each function, you should print the result of the operation to the terminal AND print the result of the operation to a file called `output.txt`
+Your `main` can still use a switch statement to determine which function to call based on the value of the first character of the line.  You can assume only valid input will exist in `input.txt`, so you do not need to check for improper input.  
+
+Using the output parameter passed to each function, you should print the result of the operation to the terminal AND print the result of the operation to a file called `output.txt`
 
 ### input.txt:
 ```
@@ -43,6 +45,10 @@ d 90 9
 * Main reads input from `input.txt` in a loop until end of file is found: 2 pts
 * Main outputs result for each operation to `output.txt`: 2 pts
 * Good comments, logical variable naming, and code structure: 1 pts
+
+## Extra Credit (1 pt)
+* Instead of using variables declared on the stack in main, declare pointers.
+    * Note: this should not require changes to your functions.
 
 ## What to Submit
 Download your repl project or navigate to the folder in your file explorer.  
