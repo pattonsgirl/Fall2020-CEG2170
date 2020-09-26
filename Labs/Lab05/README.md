@@ -1,4 +1,4 @@
-# Lab 05 - NOT FINALIZED
+# Lab 05
 
 ## Getting Started
 The name of this project / folder should be Lab05-LastName (where LastName is your last name)  
@@ -27,7 +27,6 @@ a 3 7
 s 9 3
 m 3 4
 d 90 9
-o 9 4 
 ```
 
 ### Sample Program Execution & Contents of output.txt:
@@ -36,8 +35,14 @@ o 9 4
 6
 12
 10
-1
 ```
+
+### Rubric
+* Functions take as parameters two numbers and an address: 2 pts
+* Main function prints changed value of resulting variables: 2 pts
+* Main reads input from `input.txt` in a loop until end of file is found: 2 pts
+* Main outputs result for each operation to `output.txt`: 2 pts
+* Good comments, logical variable naming, and code structure: 1 pts
 
 ## What to Submit
 Download your repl project or navigate to the folder in your file explorer.  
