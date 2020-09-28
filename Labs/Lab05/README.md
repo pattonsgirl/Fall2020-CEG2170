@@ -46,10 +46,6 @@ d 90 9
 * Main outputs result for each operation to `output.txt`: 2 pts
 * Good comments, logical variable naming, and code structure: 1 pts
 
-## Extra Credit (1 pt)
-* Instead of using variables declared on the stack in main, declare pointers.
-    * Note: this should not require changes to your functions.
-
 ## What to Submit
 Download your repl project or navigate to the folder in your file explorer.  
 
