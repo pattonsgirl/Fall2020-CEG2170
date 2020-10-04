@@ -1,4 +1,4 @@
-# Lab 06 - NOT FINALIZED
+# Lab 06
 
 ## Getting Started
 
