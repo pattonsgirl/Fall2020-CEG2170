@@ -5,6 +5,7 @@
 #include <ctype.h>
 
 //the old way
+void divide_nums (double, double);
 void divide_nums (double, double, double *);
 
 int main(void) {
