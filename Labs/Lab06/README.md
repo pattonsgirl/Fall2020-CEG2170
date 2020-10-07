@@ -29,7 +29,7 @@ double get_mean(const int [], int);
 
 ## Part 3 - Search the Array (25%):
 
-Create a function called `seek_answer` that searches the array for the answer to life, the universe, and everything - the integer `42`. If `42` is found, print `You wrote The Answer to the Great Question!`. If it is not found, print `You might not know the answer to Life, the Universe, and Everything`. Set a global variable called `search_for` to store the number to search for (`42`)
+Create a function called `search_array` that searches the array for the answer to life, the universe, and everything - the integer `42`. If `42` is found, print `You wrote The Answer to the Great Question!`. If it is not found, print `You might not know the answer to Life, the Universe, and Everything`. Set a global variable called `search_for` to store the number to search for (`42`)
 
 ```
 //Function prototype:
