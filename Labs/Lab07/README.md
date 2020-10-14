@@ -1,4 +1,4 @@
-# Lab 07 - NOT FINALIZED
+# Lab 07
 
 ## Getting Started
 
