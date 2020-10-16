@@ -28,6 +28,7 @@ int main(void) {
     if (my_first_array[i] == search_for_me){
       printf("I'm the same!\n");
       counter++;
+      break;
     }
   }
   printf("%d was found %d times", search_for_me, counter);
