@@ -8,9 +8,10 @@
 2. Relational operators & conditionals
    - <, >, <=, >=, ==, !=
    - !, &&, ||
-3. If statements
+3. Conditional statements
    - if, if else, else
    - nesting if statments
+   - switch statements
 4. Loops
    - for
    - while
