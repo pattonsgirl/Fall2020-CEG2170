@@ -17,7 +17,7 @@ void foo(){
 }
 ```
 
-    - Output is `8`.  When `foo` is called, it changes the value of the global variable `num` to `8`
+- Output is `8`. When `foo` is called, it changes the value of the global variable `num` to `8`
 
 2. What is the output of the following:
 
@@ -31,7 +31,7 @@ int *num2p = num1p;
 printf("%d", num1);
 ```
 
-    - It is originally initialized to 5. The value is then 20. Then it is 10.
+- It is originally initialized to 5. The value is then 20. Then it is 10.
 
 3. Provide the output for the following code: (2pts)
 
@@ -44,7 +44,7 @@ for(i = 1; i < 10; i = i*2){
 printf("\nx = %d", x);
 ```
 
-    - The only variable that will print is the value of x. The for loop uses the variable i, and i is multiplied by 2 every run. x increments by 1 every time the loop is run. The first time the loop runs, i = 1, then 2, then 4, then 8 (when i = 16, the relational condition will not be valid, so the loop will end). Now we know this loop runs 4 times. x starts at 0. It is incremented before printing.
+- The only variable that will print is the value of x. The for loop uses the variable i, and i is multiplied by 2 every run. x increments by 1 every time the loop is run. The first time the loop runs, i = 1, then 2, then 4, then 8 (when i = 16, the relational condition will not be valid, so the loop will end). Now we know this loop runs 4 times. x starts at 0. It is incremented before printing.
 
 ```
 Output:
@@ -71,7 +71,7 @@ int func1 (int a, int *bp){
 }
 ```
 
-        - func1 has 'a' as an input parameter, *bp as an output parameter, and returns an integer value. func1 is sent value of num1, which is 5. When I see a used in funct1, I can replace it with 5. *bp points to the value of the address sent in main, which is the address to num1 in main. The first line of the function multiplies the value in the address (5) by 5, and then store the result in the address. So now \*bp in my function and num1 in main have value 25. The next line of the function sets the return value, which will be an integer. The return value is value at the address plus 5, which is 30.
+- func1 has 'a' as an input parameter, *bp as an output parameter, and returns an integer value. func1 is sent value of num1, which is 5. When I see a used in funct1, I can replace it with 5. *bp points to the value of the address sent in main, which is the address to num1 in main. The first line of the function multiplies the value in the address (5) by 5, and then store the result in the address. So now \*bp in my function and num1 in main have value 25. The next line of the function sets the return value, which will be an integer. The return value is value at the address plus 5, which is 30.
 
 ```
 Output is:
@@ -126,10 +126,10 @@ int n;
 double m;
 ```
 
-    - Recommended answer:
+- Recommended answer:
 
 ```
-scanf("%c %d %lf", &c, &n, &m);
+scanf("%c %d %lf", &p, &n, &m);
 ```
 
 2. Write a for or while loop that prints all multiples of 4 (ie. 0, 4, 8, ...) from 0 to 100 where 0 and 100 are part of the range (included), not excluded.
@@ -138,7 +138,7 @@ scanf("%c %d %lf", &c, &n, &m);
 
 ```
 For loop example:
-    for (int i = 0; i <= 100; i+4){
+    for (int i = 0; i <= 100; i=i+4){
         printf("%d ", i);
     }
 While loop example:
@@ -157,7 +157,7 @@ Output:
 double sizes [6] = {2.98, 4.53, 9.34, 3.45, 8.24};
 ```
 
-    - An answer:
+- Accepted loop bounded by 5 or 6 due to initialization error
 
 ```
 double total = 0;
