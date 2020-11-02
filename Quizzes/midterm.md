@@ -82,7 +82,7 @@ num1 is 25 and num2 is 30
 
 1. My code asks the user for input. Sometimes it doesn't wait for user input and moves to the next step, which produces some odd results. What issue am I facing? How can I solve it?
 
-   - You are likely dealing with buffer overflow. This can be solved by formatting your expected input to catch enter characters, using fflush(), or by creating a loop with getchar to clear everything until a certain character is seen: while(getchar() != "\n")
+   - You are likely dealing with buffer overflow. This can be solved by formatting your expected input to catch enter characters, using fflush(), or by creating a loop with getchar to clear everything until a certain character is seen: while((getchar())!='\n')
 
 2. What is the difference between using break and continue in a loop?
 
