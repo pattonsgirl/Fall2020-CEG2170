@@ -14,7 +14,7 @@
 
 4. What special character notation goes at the end of a character array so that functions like printf know when to stop printing array characters?
 
-   - `/0`
+   - `\0`
 
 5. Write a structure called bike_t that would store the following: the model name of bicycle, the number of wheels, the number of pedals, and a double size of the wheels.
 
