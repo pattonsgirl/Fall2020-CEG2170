@@ -2,93 +2,89 @@
 
 ## Getting Started
 
-Download the Windows-Template or MacLinux-Template file from Pilot.  This contains settings  
-for programming in VS Code.  Extract the file to a directory of your choice (such as CEG2170).  
-You will now have a folder named Template that contains:
-* .vscode
-* code.c
-* header.h
-* Makefile
+The name of this project / folder should be Lab08-LastName (where LastName is your last name)
 
-Folder structure:
-* Create a folder named Lab09-Lastname.
+Resources:
 
-In Visual Studio Code, go to File, Open Folder, and open the folder corresponding to which part of  
-this lab your are working on.
-
-Rename code.c if desired.  If you rename it, be sure to update the Makefile variable PROGNAME  
-with the new name of your file.
-
-To run from VS Code, use the shortcut `Ctrl + Shift + C` to open the Windows Command Terminal.  
-The file path should be your project folder by default.
-
-Type `make run` - this will compile and run your code file.  
-If it fails, see the Troubleshooting Guide in [Setting Up Your Environment](https://github.com/pattonsgirl/Spring2020-CEG2170)
-
-This link to [Linked List Introduction](https://www.geeksforgeeks.org/linked-list-set-1-introduction/), [Singly Linked Lists](https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/tutorial/), and [Files in C](https://www.geeksforgeeks.org/basics-file-handling-c/) are good resources for this lab.
+- [Structures in C](https://www.geeksforgeeks.org/structures-c/)
+- [Files in C](https://www.geeksforgeeks.org/basics-file-handling-c/)
+- [Dynamic Memory Allocation in C](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
+- [Linked List Introduction](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
+- [Singly Linked Lists](https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/tutorial/)
 
 ## Linked List Basics
-  
 
-### Goal Post 1 (25%):
+### Goal Post 1 (20%):
+
 Create a structure type called `num_t` that holds a single integer and stores the address to the  
-next `num_t`  
+next `num_t`
 
-Below is a list of functions you will implement.  Your main function should allow a user to pick  
+Below is a list of functions you will implement. Your main function should allow a user to pick  
 which function to perform - you can use a switch statement or if statements to implement the menu  
-selection.  You program should continue asking the user for an action to perform unless a program  
+selection. You program should continue asking the user for an action to perform unless a program  
 termination condition is entered (such as `q` for quit).
+
 ```
 Sample menu:
-Linked List Menu:  
+Linked List Menu:
 f - find how many of a number exists
 i - insert a number
 p - print the numbers
 q - end program
 ```
-Initialize your linked list with values in an array.  Utilize the example we will discuss in class  
+
+Initialize your linked list with values in an array. Utilize the example we will discuss in class  
 or use another method if you wish.
+
 ```
 //Array example:
 int num_array[] = {8, 10, 16, 90, 42, 21, 8};
 ```
 
-### Goal Post 2 (15%):
+### Goal Post 2 (20%):
+
 `print_list` - Prints all values in the list.
+
 ```
 //Function prototype:
 void print_list (num_t *headp);
 ```
 
-### Goal Post 3 (10%):
-If `q` is selected by the user, `free` each node in the list.  `q` should also exit the program.
+### Goal Post 3 (20%):
+
+If `q` is selected by the user, `free` each node in the list. `q` should also exit the program.
 
 You may do this in a separate function OR within main.
 
-### Goal Post 4 (25%):
+### Goal Post 4 (20%):
+
 `find_num` - Searches through the linked list for the user specified number and counts how many  
 instances of the number were found.
 
 You may prompt the user for the number to search for within the function OR within main and then  
 pass the search value to the function.
+
 ```
 //Function prototype:
 void find_num (num_t *headp);
 ```
 
-### Goal Post 5 (25%):
+### Goal Post 5 (20%):
+
 `insert_num` - Adds a user specified number to the end of the list.
 
 You may prompt the user for the number to add within the function OR within main and then pass  
 the value to the function.
+
 ```
 //Function prototype:
 void insert_num (num_t *headp);
 ```
 
 ### Sample execution:
+
 ```
-Linked List Menu:  
+Linked List Menu:
 f - find how many of a number exists
 i - insert a number
 p - print the numbers
@@ -112,29 +108,37 @@ List of numbers has been safely deleted from the heap.
 Goodbye.
 ```
 
-## Extra Credit (Up to 20%):
+## Extra Credit (10%):
+
 Implement an additional menu option of either:
+
 ```
 e - enter data manually
 s - scan a data file
 ```
-Each is worth 10% of additional credit.
+
+- Entering data manually requirements:
+  - prompts user for how many numbers they want to enter
+  - populates linked list with user number input
+- Scan a data file requirements:
+  - populates linked list with contents from a file, such as `data.txt`
 
 ## What to Submit
-You should have a folder named Lab09-LastName.  
-The folder should have at least the following:
-* name_of_your_code.c  
 
-Create a .zip file of your project folder (Lab09-LastName.zip)
+Download your repl project or navigate to the folder in your file explorer.
 
-Windows:
+Upload the zip files to the corresponding Pilot Dropbox. (Lab09-LastName.zip)
+
+Make zip in Windows:
+
 1. Choose the folder you'd like to zip.
-2. Right-click the folder, point to Send to, and then click Compressed folder(zipped). 
-3. A new zipped folder will appear 
- 
-Mac & Linux:
+2. Right-click the folder, point to Send to, and then click Compressed folder(zipped).
+3. A new zipped folder will appear
+
+Make zip in Mac & Linux:
+
 1. Choose the folder you'd like to zip.
-2. Ctrl + click the folder and click Compress. 
-3. A new zipped folder will appear 
+2. Ctrl + click the folder and click Compress.
+3. A new zipped folder will appear
 
 Upload your .zip file to Pilot.
