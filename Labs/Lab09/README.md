@@ -1,4 +1,4 @@
-# Lab 09 - NOT FINALIZED
+# Lab 09
 
 ## Getting Started
 
