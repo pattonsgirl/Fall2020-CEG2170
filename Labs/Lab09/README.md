@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-The name of this project / folder should be Lab08-LastName (where LastName is your last name)
+The name of this project / folder should be Lab09-LastName (where LastName is your last name)
 
 Resources:
 
