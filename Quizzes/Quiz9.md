@@ -22,6 +22,6 @@
 typedef struct node_s {
     char words [10];
     double num;
-    struct * node_s;
+    struct node_s * next;
 } node_t;
 ```
