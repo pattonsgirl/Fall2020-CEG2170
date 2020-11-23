@@ -9,6 +9,8 @@ Resources:
 - [Structures in C](https://www.geeksforgeeks.org/structures-c/)
 - [Files in C](https://www.geeksforgeeks.org/basics-file-handling-c/)
 - [Dynamic Memory Allocation in C](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
+- [Linked List Deleting a Node](https://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
+- [C Linked List Delete Explanation](https://www.cs.bu.edu/teaching/c/linked-list/delete/)
 
 ## My Gaming Helper
 
