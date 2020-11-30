@@ -46,7 +46,7 @@ q - end program
 
 `scan_file` - Read in from [`data.txt`](./data.txt) until end of line is reached. For each line, you will be stored in a node and populated the node with the corresponding data. This should be associated with user input `s`
 
-### Goal Post 3 (12%):
+### Goal Post 3 (20%):
 
 `find_character` - Print out the stats associated with a character entered by the user. If the character does not exist, it should print a message that states `Character not in data`. You may assume that no character will be repeated twice, so you do not need to continue searching one the first instance is found.
 
@@ -54,19 +54,13 @@ This should be associated with the user input `f`.
 
 You may prompt the user for the character within the function OR within main and then pass the search value to the function.
 
-### Goal Post 4 (12%):
+### Goal Post 4 (20%):
 
 `add_character` - Add a character and its associated stats to a node at the **end** of the linked list.
 
 This should be associated with user input `a`.
 
-### Goal Post 5 (12%):
-
-`delete_character` - Deletes a character specified by the user by freeing its node. Make sure the list remains linked.
-
-This should be associated with user input `d`.
-
-### Goal Post 6 (12%):
+### Goal Post 5 (20%):
 
 `print_list` - Prints the character list to a file called `updated-data.txt`. Data should be printed in the exact same format as the original data file. This should be associated with user input `p`.
 
@@ -78,7 +72,6 @@ Welcome to the Game Helper.
 s - scan a data file
 f - find character stats
 a - add a character
-d - remove a character
 p - print characters & stats to file
 q - end program
 Pick something to do: s
@@ -97,6 +90,16 @@ Pick something to do: q
 Goodbye!
 
 ```
+
+### Extra Credit (20%):
+
+Add an option to the menu:
+
+```
+d - delete character
+```
+
+This option will be paired with `delete_character` - Deletes a character specified by the user by freeing its node. Make sure the list remains linked.
 
 ## What to Submit
 
