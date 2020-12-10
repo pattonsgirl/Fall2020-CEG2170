@@ -2,6 +2,7 @@
 
 1. Strings
 
+   - string.h library
    - strcpy
    - strcmp
    - sscanf
