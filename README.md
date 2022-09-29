@@ -17,6 +17,11 @@ TODO: This needs to be polished into good documentation, but here are the most r
     - Untested alternative: `pacman -S make`
     - CMake: `pacman -S mingw-w64-x86_64-cmake`
 - [Play with coding in VS Code](https://code.visualstudio.com/docs/languages/cpp)
+  - VSCode Recommended Extensions (should be included by WSU CSE Extension Pack) :
+    - C/C++
+    - C/C++ Themes
+    - C/C++ Extension Pack
+    - C/C++ Compile Run
 - TODO: how to enable a play / run button in VS Code
   - Code Runner Extension may be a lead?
   - https://stackoverflow.com/questions/66958884/how-to-add-a-run-button-in-visual-studio-code
