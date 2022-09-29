@@ -11,6 +11,10 @@ The focus on this course is learning how to write code and solve problems progra
 TODO: This needs to be polished into good documentation, but here are the most recent links for VS Code + C/C++ compiler
 
 - [Install MSYS2 C/C++ Compiler](https://www.msys2.org/)
+  - `pacman -S mingw-w64-x86_64-gcc`
+  - `pacman -S mingw-w64-x86_64-gdb`
+  - `pacman -S mingw-w64-x86_64-make`
+    - Untested alternative: `pacman -S make`
 - [Play with coding in VS Code](https://code.visualstudio.com/docs/languages/cpp)
 - TODO: how to enable a play / run button in VS Code
   - Code Runner Extension may be a lead?
