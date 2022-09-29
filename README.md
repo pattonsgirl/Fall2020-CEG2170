@@ -16,6 +16,7 @@ TODO: This needs to be polished into good documentation, but here are the most r
   - `pacman -S mingw-w64-x86_64-make`
     - Untested alternative: `pacman -S make`
     - CMake: `pacman -S mingw-w64-x86_64-cmake`
+  - Rename / copy `C:\msys64\mingw64\bin\mingw32-make.exe` to `make.exe`
 - [Play with coding in VS Code](https://code.visualstudio.com/docs/languages/cpp)
   - VSCode Recommended Extensions (should be included by WSU CSE Extension Pack) :
     - C/C++
