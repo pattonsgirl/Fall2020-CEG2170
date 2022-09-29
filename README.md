@@ -8,6 +8,19 @@ The focus on this course is learning how to write code and solve problems progra
 
 ## Install C on your machine
 
+TODO: This needs to be polished into good documentation, but here are the most recent links for VS Code + C/C++ compiler
+
+- [Install MSYS2 C/C++ Compiler](https://www.msys2.org/)
+- [Play with coding in VS Code](https://code.visualstudio.com/docs/languages/cpp)
+- TODO: how to enable a play / run button in VS Code
+  - Code Runner Extension may be a lead?
+  - https://stackoverflow.com/questions/66958884/how-to-add-a-run-button-in-visual-studio-code
+- Additional references
+  - https://code.visualstudio.com/docs/cpp/config-mingw
+  - https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
+
+## Install C on your machine (OLD INSTRUCTIONS)
+
 ### Windows
 Download [MinGW](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)  
 Install MinGW 
